@@ -39,11 +39,6 @@ Used briefly to help with:
 
 ---
 
-### ✅ Summary
-
-AI tools—especially ChatGPT and V0—were invaluable in the development process, helping with code generation, bug fixing, and UI building. Most tasks guided by AI were implemented successfully with minor adjustments to suit the specific project context.
-
-
 
 
 ## 🚀 Future Improvements
