@@ -42,3 +42,32 @@ Used briefly to help with:
 ### ✅ Summary
 
 AI tools—especially ChatGPT and V0—were invaluable in the development process, helping with code generation, bug fixing, and UI building. Most tasks guided by AI were implemented successfully with minor adjustments to suit the specific project context.
+
+
+
+
+## 🚀 Future Improvements
+
+If given additional time, the following improvements and features are planned to enhance the Smart Meeting Planner:
+
+### 🗓 Google Calendar Integration
+- Integrate with **Google Calendar API** to sync meetings and busy slots automatically.
+- Each employee will have their own calendar updated in real-time.
+- This will streamline scheduling and reduce manual updates.
+
+### 🎨 Enhanced UI with Employee-Specific Views
+- Redesign the UI to display each employee's **busy slots in separate sections**.
+- Include **visually appealing charts or timelines** for better clarity.
+- Improves the user experience and makes availability easier to interpret.
+
+### 👥 Flexible Attendee Selection for Booking
+- Add a feature to **select specific employees** when booking a meeting.
+- Suggestions and bookings will be based only on the selected attendees' availability.
+- Enables partial team or one-on-one meeting planning.
+
+### ⚙️ Code Optimization and Database Integration
+- Refactor existing code for **better performance and structure**.
+- Replace in-memory storage with a **persistent database** like SQLite or PostgreSQL.
+- This will allow for scalable data handling and long-term persistence.
+
+
