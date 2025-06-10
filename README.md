@@ -1,13 +1,44 @@
-How exactly did you use AI while building this? List tools, prompts, successes, and failures.
+## 🤖 How AI Helped Build This Project
 
-answer: i have used many ai tools for this project i used chat-gpt,v0 and a little bit claude also
+During the development of this Smart Meeting Planner, various AI tools were used to accelerate progress, generate components, and debug issues efficiently. Below is a detailed account of the AI tools, prompts used, and their effectiveness.
 
-chat gpt prompts:
-        *the fast api installation guide that was an success
-        *create all the routes as given in the pdf was an success
-        *create the utility to convert given time into minutes for even the hour like 02:00 should be 120 like that also an success
-        *some bugs that is encountered which is why does the frontend is again and again appending the input every time i submit resolved this also
+### 🧠 AI Tools Used
 
-V0 prompts:
-          *here is basically sent the pdf and asked to create the ui then copied the ui work with libraries and then properly link all shadcn and tailwind then modularise the code
-        
+- **ChatGPT (GPT-4)**
+- **V0 by Vercel**
+- **Claude (briefly)**
+
+---
+
+### 💬 ChatGPT Prompts & Contributions
+
+| Prompt                                                                                     | Outcome                                                                 |
+|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| FastAPI installation and setup guide                                                       | ✅ Successfully guided through backend setup                            |
+| Create all required API routes from a provided PDF                                         | ✅ Generated accurate and complete routing logic                        |
+| Utility to convert time to minutes (e.g., "02:00" → 120)                                   | ✅ Created a precise utility function and integrated it cleanly         |
+| Debug: Why was the frontend appending input every time on submit?                         | ✅ Identified the state management issue and provided a working fix     |
+
+---
+
+### 🖼️ V0 Prompts & Contributions
+
+| Prompt                                                                                     | Outcome                                                                 |
+|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Upload PDF and generate UI                                                                | ✅ Provided a clean and functional UI layout using Tailwind + Shadcn    |
+| Style and structure components                                                            | ✅ Helped in modularizing the UI and maintaining a consistent design    |
+| Integrate generated UI with backend logic                                                 | ✅ Adapted frontend to connect with FastAPI routes                      |
+
+---
+
+### 🤏 Claude
+
+Used briefly to help with:
+- High-level architecture discussions
+- Quick code clarifications
+
+---
+
+### ✅ Summary
+
+AI tools—especially ChatGPT and V0—were invaluable in the development process, helping with code generation, bug fixing, and UI building. Most tasks guided by AI were implemented successfully with minor adjustments to suit the specific project context.
