@@ -1,0 +1,24 @@
+# This is a gitignore file for a Python FastAPI project.
+# It is used to specify files and directories that should be ignored by Git.
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Database
+*.sqlite3

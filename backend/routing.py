@@ -6,6 +6,10 @@ from model import UserBusyInput, BookSlotInput
 router = APIRouter()
 calendar = CalendarManager()
 
+@router.get("/")
+def health_check():
+    return {"status": "healthy", "message": "Smart Meeting Planner API is running"}
+
 @router.post("/slots")
 def post_slots(payload:UserBusyInput):
     return calendar.add_slots(payload)
